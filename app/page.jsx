@@ -99,7 +99,7 @@ export default function Home() {
           <div className="col">
             <TaskSections
               setShow={setShow}
-              numberOfCards={6}
+              numberOfCards={3}
               title="Overdue"
               color="danger"
               totalFiles={totalFiles}
