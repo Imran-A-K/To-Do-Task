@@ -54,13 +54,6 @@ export default function Home() {
       ) : (
         <div className="row row-cols-6">
           <div className="col">
-            {/* {!isLoading && (
-      <Skeleton
-        width="100%"
-        height="calc(100vh - 40px)"
-        borderRadius="8px"
-      />
-    )} */}
             <TaskSections
               setShow={setShow}
               totalFiles={totalFiles}
