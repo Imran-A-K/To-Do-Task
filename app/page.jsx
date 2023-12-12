@@ -57,7 +57,7 @@ export default function Home() {
             <TaskSections
               setShow={setShow}
               totalFiles={totalFiles}
-              numberOfCards={6}
+              numberOfCards={7}
               title="Incomplete"
               color="danger"
             />
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="col">
             <TaskSections
               setShow={setShow}
-              numberOfCards={6}
+              numberOfCards={9}
               title="Doing"
               color="warning"
               totalFiles={totalFiles}
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="col">
             <TaskSections
               setShow={setShow}
-              numberOfCards={6}
+              numberOfCards={8}
               title="Under Review"
               totalFiles={totalFiles}
             />
@@ -90,7 +90,7 @@ export default function Home() {
           <div className="col">
             <TaskSections
               setShow={setShow}
-              numberOfCards={6}
+              numberOfCards={7}
               title="Completed"
               color="success"
               totalFiles={totalFiles}
